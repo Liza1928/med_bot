@@ -4,10 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-psycopg2-binary = "*"
-sqlalchemy = "*"
+regex = "==2020.9.27"
+sanic = "<19.12.3"
+scikit-learn ="<0.24.0"
+rasa = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.8"
