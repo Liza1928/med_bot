@@ -8,6 +8,7 @@ regex = "==2020.9.27"
 sanic = "<19.12.3"
 scikit-learn ="<0.24.0"
 rasa = "*"
+pymorphy2 = "*"
 
 [dev-packages]
 
