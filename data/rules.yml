@@ -16,3 +16,18 @@ rules:
   steps:
   - intent: work_time
   - action: utter_work_time
+
+- rule: Анализ крови
+  steps:
+  - intent: analys_blood
+  - action: utter_analys_blood
+
+- rule: Анализ на рет
+  steps:
+  - intent: analys_ret
+  - action: utter_analys_ret
+
+- rule: Анализ на ковид
+  steps:
+  - intent: analys_covid
+  - action: utter_analys_covid
