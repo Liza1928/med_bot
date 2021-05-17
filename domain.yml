@@ -49,6 +49,9 @@ responses:
   utter_work_time:
     - text: "Режим работы с 8:00 до 17:00 ежедневно"
 
+  utter_massage:
+    - text: "Массаж - это и прекрасная возможность побаловать себя, и, как показывают новые исследования, огромная польза для здоровья."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
