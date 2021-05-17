@@ -17,6 +17,11 @@ rules:
   - intent: work_time
   - action: utter_work_time
 
+- rule: Массаж
+  steps:
+  - intent: massage
+  - action: utter_massage
+
 - rule: Анализ крови
   steps:
   - intent: analys_blood
