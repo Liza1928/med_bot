@@ -21,3 +21,18 @@ rules:
   steps:
   - intent: massage
   - action: utter_massage
+
+- rule: Анализ крови
+  steps:
+  - intent: analys_blood
+  - action: utter_analys_blood
+
+- rule: Анализ на рет
+  steps:
+  - intent: analys_ret
+  - action: utter_analys_ret
+
+- rule: Анализ на ковид
+  steps:
+  - intent: analys_covid
+  - action: utter_analys_covid
